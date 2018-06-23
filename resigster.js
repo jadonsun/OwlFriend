@@ -202,7 +202,7 @@ ResisterFriendInfo.prototype = {
                 "typeLabel": label_id_new,
                 "publishTime": getNowFormatDate(),
                 "canPay": "0",
-                "payNum": 0
+                "payNum": "0"
             };
             var req_args = [];
             req_args.push(req_arg_item);
