@@ -77,7 +77,7 @@ ResisterFriendInfo.prototype = {
                 xuanyan = $("#xuanyan").val(),
                 label = $("#label").select2('data'),
                 // is_pay = $("input[name='is_pay']:checked").val(),
-                pay_num = $("#pay_num").val(),
+                // pay_num = $("#pay_num").val(),
                 face_image = $("#face_image").attr("src");
             
             if (name == "") {
@@ -202,7 +202,7 @@ ResisterFriendInfo.prototype = {
                 "typeLabel": label_id_new,
                 "publishTime": getNowFormatDate(),
                 "canPay": "0",
-                "payNum": pay_num
+                "payNum": 0
             };
             var req_args = [];
             req_args.push(req_arg_item);
