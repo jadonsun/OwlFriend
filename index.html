@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!-- html -->
+<html>
+<!-- head -->
+<head>
+<title>Owl Friend</title>
+<meta name="author" content="Owl Friend" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+<!-- Custom Theme files -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+
+<link rel="stylesheet" type="text/css" href="css/filter.css" />
+
+<!--meta data-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Owl Friend" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta data-->
+
+<!-- nav smooth scroll -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>	
+<!-- //nav smooth scroll -->					
+<link rel="stylesheet" href="css/intlTelInput.css">
+</head>
+<!-- //head -->
+<!-- body -->
+<body>
+
+<!-- header -->
+<header>
+	<!--  Navigation Start -->
+ <div class="navbar navbar-inverse-blue navbar">
+    <!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="pull-right">
+				<nav class="navbar nav_bottom" role="navigation">
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav nav_1">
+							<li class="active"><a href="index.html">优质推荐</a></li>
+							<li><a href="my_love.html">心动对象</a></li>
+							<li><a href="eachother_love.html">相互心动</a></li>
+							<li><a href="register.html">个人信息</a></li>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="help.html">如何使用</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div> <!-- end pull-right -->
+			
+			<div class="clearfix"><img src="images/logo.png" style="height:160px;"></div>
+			
+		</div> <!-- end container -->
+	</div> <!-- end navbar-inner -->
+</div> <!-- end navbar-inverse-blue -->
+</header>
+<!-- /header -->
+
+<div class="w3layouts-banner" id="home">
+<div class="container">
+	<div class="clearfix"></div>
+	</div>
+</div>
+
+<div class="w3layouts_featured-profiles">
+	<div class="container">
+		<div class="agile_featured-profiles">
+			<h2>优质Girl推荐</h2>
+			<div id="filter_female" class="filter">
+			</div>
+			<div class="clearfix"></div>
+			<h2 style="text-align: center;margin-top: 50px;display: none;" id="no-data-female">暂没有该类型的Girl哦~</h2>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="container" id="data-female" style="margin-top: 30px;">
+			<!-- slider -->
+		<div class="agile_featured-profiles">
+			
+			<div class="nbs-flexisel-container">
+				<div class="nbs-flexisel-inner" style="display: none;" id="female_page">
+					<ul id="female_list">
+					</ul>
+					<div class="nbs-flexisel-nav-left" style="top: 133.5px;" id="pre_female_btn"></div>
+					<div class="nbs-flexisel-nav-right" style="top: 133.5px;" id="next_female_btn"></div>
+					
+				</div>
+				<div class="nbs-flexisel-inner" id="loading_female" style="text-align: center;background: #ffffff">
+					<img src="images/loading_page.gif">
+				</div>
+			</div>
+		</div>   
+	</div>
+</div>
+<!-- featured profiles -->			
+<div class="w3layouts_featured-profiles">
+	
+<!-- //slider -->				
+</div>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script><!-- flexisel-js -->	
+<!-- //featured profiles -->
+
+<!-- featured profiles -->			
+<div class="w3layouts_featured-profiles">
+	<div class="container">
+		<div class="agile_featured-profiles">
+			<h2>优质Boy推荐</h2>
+			<div id="filter_man" class="filter">
+			</div>
+			<div class="clearfix"></div>
+			<h2 style="text-align: center;display: none;margin-top: 50px;" id="no-data-man">暂没有该类型的Boy哦~</h2>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="container" id="data-man" style="margin-top: 30px;">
+	<!-- slider -->
+		<div class="agile_featured-profiles">
+			<div class="nbs-flexisel-container">
+				<div class="nbs-flexisel-inner" style="display:none;" id="man_page">
+					<ul id="man_list">
+					</ul>
+					<div class="nbs-flexisel-nav-left" style="top: 133.5px;" id="pre_man_btn"></div>
+					<div class="nbs-flexisel-nav-right" style="top: 133.5px;" id="next_man_btn"></div>
+				</div>
+				<div class="nbs-flexisel-inner" id="loading_man" style="text-align: center;background: #ffffff">
+					<img src="images/loading_page.gif">
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+<!-- //slider -->				
+</div>
+
+<!-- //featured profiles -->		   
+	
+<!-- Assisted Service -->
+<div class="agile-assisted-service text-center">
+	<h4>Owl Friend</h4>
+	<p>翻动Own Friend推送的照片，寻找与你最近的缘分。如果你喜欢的人也喜欢你，恭喜，一见钟情！在Owl Friend，只有相互喜欢的人才可以开始获得对方的联系方式，眼缘不错，趣味相投，向陌生人尴尬的搭讪说再见吧。</p>
+	<a href="help.html">更多玩法</a>
+</div>
+<!-- //Assisted Service -->
+
+	
+<!-- footer -->
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info w3-agileits-info">
+				<div class="col-md-4 address-left agileinfo">
+					<div class="footer-logo header-logo">
+						<h6>联系我们</h6>
+					</div>
+					<ul>
+						<li><i class="fa fa-map-marker"></i> 深圳湾创业广场, 南山区, 深圳市, 广东省.</li>
+						<li><i class="fa fa-mobile"></i> 13392431325 </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="jadonsunzzz@gmail.com"> jadonsunzzz@gmail.com</a></li>
+					</ul> 
+				</div>
+				<div class="col-md-8 address-right">
+					<div class="container-fluid footer-grids">
+						<h3>关于我们</h3>
+						<ul>
+							<li>Owl Friend: 一种全新的基于星云链的、为年轻的你量身打造的社交平台</li>
+							<li></li>
+							<li>我们的目标： 基于星云链打造一款全新的社交平台，让社交回归到纯粹的“眼缘”时代</li>
+							<li></li>
+							<li>我们的愿景： 开拓社交新思路，向陌生人尴尬的搭讪说再见</li>
+						</ul>
+					</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>	
+	<div class="copy-right"> 
+		<div class="container">
+			<p>Copyright &copy; 2018.星云社区自由开发者.</p>
+		</div>
+	</div> 
+</footer>
+<!-- //footer -->	
+<!-- menu js aim -->
+	<script src="js/jquery.menu-aim.js"> </script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<!-- //menu js aim -->
+	<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+							
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- for smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script src="js/template.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	</script>
+	<!-- //for smooth scrolling -->
+
+</body>
+
+<script id="person_list_t" type="text/html">
+	<%if(list.length > 0 ){%>
+	<%for(var i = 0; i < list.length; i++) {%>
+		<div class="col-md-3 biseller-column">
+			<a href="friend_detail.html?key=<%:=list[i].id%>">
+				<div class="profile-image">
+					<img src="<%:=list[i].headImg%>" class="img-responsive" alt="profile image">
+					<div class="agile-overlay">
+					<h4 style="text-align: center;"><%:=list[i].name%></h4>
+						<ul>
+							<li><span style="width:55px;">出生年月</span>: <%:=list[i].birthday%></li>
+							<li><span style="width:55px;">所在城市</span>: <%:=list[i].location%></li>
+							<li><span style="width:55px;">点赞数量</span>: <%:=list[i].goodNum%></li>
+							<li><span style="width:55px;">评论数量</span>: <%:=list[i].communicationNum%></li>
+							<li><span style="width:55px;">被喜欢数量</span>: <%:=list[i].beLiked%></li>
+							<% var temp_manifesto = list[i].manifesto; if(temp_manifesto.length > 54) { temp_manifesto = temp_manifesto.substring(0, 54); temp_manifesto += "..."}%>
+							<li><span style="width:55px;">交友宣言</span>: <%:=temp_manifesto%></li>
+							<% var temp_hobby = list[i].hobby; if(temp_hobby.length > 54) { temp_hobby = temp_hobby.substring(0, 54); temp_hobby += "..."}%>
+							<li><span style="width:55px;">爱好</span>: <%:=temp_hobby%></li>
+
+						</ul>
+					</div>
+				</div>
+			</a>
+		</div>
+	<%}}%>
+	
+</script>
+
+<script id="type_list_t" type="text/html">
+	<%if(list.length > 0 ){%>
+	<dl>
+		<dt>选择类型：</dt>
+		<%for(var i = 0; i < list.length; i++) {%>
+			<dd><div><a class="type_a"><%:=list[i]%></a></div></dd>
+		<%}}%>
+	</dl>
+</script>
+
+
+
+
+<!-- //body -->
+</html>
+<!-- //html -->

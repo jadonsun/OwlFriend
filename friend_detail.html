@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!-- html -->
+<html>
+<!-- head -->
+<head>
+<title>Owl Friend</title>
+<meta name="author" content="Owl Friend" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+<!-- Custom Theme files -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/commit.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+ <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+ <link rel="stylesheet" type="text/css" href="css/main.css " />
+ <link rel="stylesheet" type="text/css" href="css/sinaFaceAndEffec.css " />
+<!--meta data-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Owl Friend" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta data-->
+
+<!-- nav smooth scroll -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //nav smooth scroll -->
+</head>
+<!-- //head -->
+<!-- body -->
+<body>
+
+<!-- header -->
+<header>
+<!--  Navigation Start -->
+<div class="navbar navbar-inverse-blue navbar">
+	<!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
+	<div class="navbar-inner">
+		<div class="container">
+			<div class="pull-right">
+				<nav class="navbar nav_bottom" role="navigation">
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav nav_1">
+							<li><a href="index.html">优质推荐</a></li>
+							<li><a href="my_love.html">心动对象</a></li>
+							<li><a href="eachother_love.html">相互心动</a></li>
+							<li><a href="register.html">个人信息</a></li>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="help.html">如何使用</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div> <!-- end pull-right -->
+			<div class="clearfix"><img src="images/logo.png" style="height:160px;"></div>
+		</div> <!-- end container -->
+	</div> <!-- end navbar-inner -->
+</div> <!-- end navbar-inverse-blue -->
+</header>
+<!-- /header -->
+
+	<!-- inner banner -->	
+	<div class="w3layouts-inner-banner">
+		<div class="container">
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //inner banner -->	
+	
+	<!-- breadcrumbs -->
+	<div class="w3layouts-breadcrumbs text-center">
+		<div class="container">
+			<span class="agile-breadcrumbs"><a href="index.html">优质推荐</a> > <span>心动对象介绍</span></span>
+		</div>
+	</div>
+	<!-- //breadcrumbs -->
+
+
+	<!-- Bridegroom Profile Details -->
+	<div class="w3ls-list" id="page_detail" style="display: none;">
+		<div class="container">
+			<h2>心动对象详细资料</h2>
+			<div class="col-md-9 profiles-list-agileits" style="width: 100%;">
+				<div class="single_w3_profile">
+					<div class="agileits_profile_image">
+						<img src="images/profile-image-men.jpg" alt="profile image" id="head_img"/>
+					</div>
+					<div class="w3layouts_details">
+						<h4 id="name"></h4>
+						<span id="publish_time"></span>
+						<p id="manifesto">交友宣言交友宣言交友宣言交友宣言交友宣言交友宣言交友宣言交友宣言</p>
+						<p>被喜欢次数：<span id="belike_num">0</span></p>
+						<a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" id="good">赞（<span id="good_num">0</span>）</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" id="bad">踩（<span id="bad_num">0</span>）</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target="#myModal">评论（<span id="communication_num">0</span>）</a>
+						<a href="javascript:void(0);" data-toggle="modal" data-target="#myModal" id="pick_me_btn">喜欢TA</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="profile_w3layouts_details">
+					<div class="agileits_aboutme">
+						<h4>About me</h4>
+						<h5>爱好：</h5>
+						<p id="hobby">爱好爱好爱好爱好</p>
+						<h5>个性：</h5>
+						<p id="personality">爱好爱好爱好爱好</p>
+						<h5>详细信息:</h5>
+						<div class="form_but1">
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">性别 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="sex">
+								女
+							</div>
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">生日 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="birthday">
+								Not Specified
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="form_but1">
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">身高 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="height">
+								137CM
+							</div>
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">体重: </label>
+							<div class="col-sm-9 w3_details detail_div" id="weight">
+								50KG
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="form_but1">
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">微信号 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="weixin">
+								sed, USA
+							</div>
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">所在地: </label>
+							<div class="col-sm-9 w3_details detail_div" id="location">
+								Not Specified
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="form_but1">
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">手机号 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="phone">
+								Moderate
+							</div>
+							<label class="col-sm-3 control-label1 detail_label" for="Relation">QQ号 : </label>
+							<div class="col-sm-9 w3_details detail_div" id="qq">
+								Moderate
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+
+				<div id="content" style="width: 90%; height: auto;margin-left:10px;margin-top:10px;min-height: 150px;">
+					<div class="wrap">
+						<div class="comment">
+							<div class="head-face">
+								<img src="images/1.jpg" / >
+								<p>匿名游客</p>
+							</div>
+							<div class="content">
+								<div class="cont-box">
+									<textarea class="text" placeholder="请输入..." id="comment_content" ></textarea>
+								</div>
+								<div class="tools-box">
+									<div class="operator-box-btn"><span class="face-icon"  >☺</span></div>
+									<div class="submit-btn"><input type="button" id="sub_comment" value="提交评论" /></div>
+								</div>
+							</div>
+						</div>
+						<div id="info-show">
+							<ul id="comment_list"></ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		
+		</div>
+	</div>
+	<div class="w3ls-list" id="page_loading">
+		<div class="container" style="text-align: center;background: #ffffff">
+			<img src="images/loading_page.gif">
+		</div>
+	</div>
+	<script src="js/easyResponsiveTabs.js"></script>
+	<script type="text/javascript" src="js/sinaFaceAndEffec.js"></script>
+	<script type="text/javascript" src="js/commit.js"></script>
+	<script src="js/template.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#parentHorizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				tabidentify: 'hor_1', // The tab groups identifier
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#nested-tabInfo');
+					var $name = $('span', $info);
+		
+					$name.text($tab.text());
+		
+					$info.show();
+				}
+			});
+	 
+		});
+		// 绑定表情
+	$('.face-icon').SinaEmotion($('.text'));
+	template.registerFunction("formatComment", function (x) {
+		return AnalyticEmotion(x);
+	});
+	</script>
+	<!-- //Bridegroom Profile Details -->
+	
+	
+<!-- footer -->
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info w3-agileits-info">
+				<div class="col-md-4 address-left agileinfo">
+					<div class="footer-logo header-logo">
+						<h6>联系我们</h6>
+					</div>
+					<ul>
+						<li><i class="fa fa-map-marker"></i> 深圳湾创业广场, 南山区, 深圳市, 广东省.</li>
+						<li><i class="fa fa-mobile"></i> 13392431325 </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="jadonsunzzz@gmail.com"> jadonsunzzz@gmail.com</a></li>
+					</ul> 
+				</div>
+				<div class="col-md-8 address-right">
+					<div class="container-fluid footer-grids">
+						<h3>关于我们</h3>
+						<ul>
+							<li>Owl Friend: 一种全新的基于星云链的、为年轻的你量身打造的社交平台</li>
+							<li></li>
+							<li>我们的目标： 基于星云链打造一款全新的社交平台，让社交回归到纯粹的“眼缘”时代</li>
+							<li></li>
+							<li>我们的愿景： 开拓社交新思路，向陌生人尴尬的搭讪说再见</li>
+						</ul>
+					</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>	
+	<div class="copy-right"> 
+		<div class="container">
+			<p>Copyright &copy; 2018.星云社区自由开发者.</p>
+		</div>
+	</div> 
+</footer>
+<!-- //footer -->	
+<!-- menu js aim -->
+	<script src="js/jquery.menu-aim.js"> </script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	
+	<script src="js/urlParm.js"></script>
+	<script src="js/layer.js"></script>
+	<script src="friend_detail.js"></script>
+	<!-- //menu js aim -->
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+		
+		
+<!-- //for bootstrap working -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- for smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	</script>
+	<!-- //for smooth scrolling -->
+</body>
+
+<!-- //body -->
+</html>
+<!-- //html -->
+
+<script id="comment_list_t" type="text/html">
+	<%if(list.length > 0 ){%>
+	<%for(var i = 0; i < list.length; i++) {%>
+		<li>
+			<div class="head-face">
+				<img src="images/1.jpg" / >
+			</div>
+			<div class="reply-cont">
+				<p class="username">匿名游客</p>
+				<p class="comment-body"><%:=formatComment(list[i].content)%></p>
+				<p class="comment-footer" align="right"><%:=list[i].communicationTime%></p>
+			</div>
+		</li>
+	<%}}%>
+
+</script>

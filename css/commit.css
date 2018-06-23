@@ -1,0 +1,223 @@
+/*文苑之旅*/
+.travel_con {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+  }
+  .travel_con .xianguan {
+    height: 40px;
+    background: #f2f3ed;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #666666;
+    margin: 20px auto;
+  }
+  .travel_con .tra_ul {
+    width: 100%;
+  }
+  .travel_con .tra_ul ul {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .travel_con .tra_ul ul li {
+    float: left;
+    width: 31.333%;
+    position: relative;
+    max-width: 392px;
+    margin-left: 2%;
+    margin-bottom: 40px;
+  }
+  .travel_con .tra_ul ul li a {
+    display: block;
+    position: relative;
+    color: #666666;
+    font-size: 17px;
+    line-height: 30px;
+    overflow: hidden;
+  }
+  .travel_con .tra_ul ul li a img {
+    z-index: 9999;
+    transition: 0.3s;
+  }
+  .travel_con .tra_ul ul li a i {
+    display: block;
+    padding-bottom: 71.05263157894737%;
+  }
+  .travel_con .tra_ul ul li a:hover {
+    color: #81a849;
+    font-weight: bold;
+  }
+  .travel_con .tra_ul ul li a:hover img {
+    transform: scale(1.1);
+  }
+  .travel_con .tra_ul ul li:after {
+    content: "";
+    padding-bottom: 71.05263157894737%;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    width: 95%;
+    top: -10px;
+    left: -10px;
+    z-index: 9;
+  }
+  .travel_con .tra_ul ul li:hover:after {
+    border: 1px solid #81a849;
+  }
+  @media (max-width: 640px) {
+    .travel_con .tra_ul ul {
+      width: 80%;
+    }
+    .travel_con .tra_ul ul li {
+      width: 100%;
+      float: none;
+      margin: auto auto 30px;
+      margin-left: 4%;
+    }
+  }
+  .travel_con .tra_ul .top_a {
+    text-align: center;
+    margin: 20px auto 10px;
+  }
+  .travel_con .tra_ul .top_a a {
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    background: url(../images/dian.png) no-repeat center right;
+  }
+  .travel_con .tra_ul .top_a a:last-child {
+    background: none;
+  }
+  .travel_con .tra_ul .top_a a:hover {
+    color: #81a849;
+  }
+  .travel_con .tra_ul .top_a .active {
+    color: #81a849;
+  }
+  .travel_con .tra_ul .page {
+    padding-top: 0px;
+  }
+  /*文苑之旅显示页面*/
+  .travel_show .tra_con {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+  }
+  .travel_show .tra_con .top_t {
+    text-align: center;
+    color: #81a849;
+    font-size: 26px;
+    margin: 10px auto;
+  }
+  .travel_show .tra_con .top_2 {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  .travel_show .tra_con .top_2 i {
+    font-style: normal;
+    color: #e3e3e3;
+  }
+  .travel_show .tra_con .tu_qie {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .travel_show .tra_con .tu_qie .left {
+    width: 61%;
+    float: left;
+  }
+  .travel_show .tra_con .tu_qie .left .pic {
+    width: 95%;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+  }
+  .travel_show .tra_con .tu_qie .left .pic img {
+    z-index: 99999;
+  }
+  .travel_show .tra_con .tu_qie .left .pic i {
+    display: block;
+    padding-bottom: 70.83333333333334%;
+  }
+  .travel_show .tra_con .tu_qie .left .pic:after {
+    content: "";
+    padding-bottom: 71.05263157894737%;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    width: 95%;
+    top: -10px;
+    left: -10px;
+    z-index: 9;
+  }
+  .travel_show .tra_con .tu_qie .left .pic:hover:after {
+    border: 1px solid #81a849;
+  }
+  .travel_show .tra_con .tu_qie .left a {
+    display: block;
+  }
+  .travel_show .tra_con .tu_qie .right {
+    width: 37%;
+    float: right;
+  }
+  .travel_show .tra_con .tu_qie .right ul li {
+    width: 48%;
+    margin-bottom: 30px;
+    margin-right: 2%;
+  }
+  .travel_show .tra_con .tu_qie .right ul li .pic_li {
+    width: 90%;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .travel_show .tra_con .tu_qie .right ul li .pic_li img {
+    z-index: 9999;
+  }
+  .travel_show .tra_con .tu_qie .right ul li .pic_li i {
+    display: block;
+    padding-bottom: 71.42857142857143%;
+  }
+  .travel_show .tra_con .tu_qie .right ul li .pic_li:after {
+    content: "";
+    padding-bottom: 71.05263157894737%;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    width: 98%;
+    top: -10px;
+    left: -10px;
+    z-index: 9;
+  }
+  .travel_show .tra_con .tu_qie .right ul li .pic_li:hover:after {
+    border: 1px solid #81a849;
+  }
+  @media (max-width: 480px) {
+    .travel_show .tra_con .tu_qie .right ul li {
+      margin-bottom: 10px;
+    }
+    .travel_show .tra_con .tu_qie .right ul li .pic_li:after {
+      content: "";
+      padding-bottom: 71.05263157894737%;
+      border: 1px solid #d9d9d9;
+      position: absolute;
+      width: 98%;
+      top: -8%;
+      left: -8%;
+      z-index: 9;
+    }
+  }
+  .travel_show .tra_con p {
+    padding: 0px 30px;
+    margin: 0px;
+    line-height: 25px;
+    color: #666666;
+  }
+  .travel_show .feedback_con {
+    overflow: hidden;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+  }
