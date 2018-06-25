@@ -1,6 +1,6 @@
 'use strict';
 
-var dappAddress = "n1wJXAD99AagTTNVW8WHmW7rZsGF7paRg3A";
+var dappAddress = "n1omSaU3V5rLVpjLpKtb58B7vSuGwGoGC3R";
 
 var type_female = ["清纯可爱", "成熟大气", "秀外慧中", "楚楚动人", "温柔体贴",
                     "乐观开朗", "绝佳身材", "端庄大方", "惹人注目", "古灵精怪"];

@@ -1,6 +1,6 @@
 'use strict';
 
-var dappAddress = "n1wJXAD99AagTTNVW8WHmW7rZsGF7paRg3A";
+var dappAddress = "n1omSaU3V5rLVpjLpKtb58B7vSuGwGoGC3R";
 
 var page_num = 4;
 
