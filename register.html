@@ -47,7 +47,10 @@ $(document).ready(function(){
 	<script src="js/jquery-ui.js"></script>
 		<script>
 		  $(function() {
-			$( "#datepicker" ).datepicker();
+			$( "#datepicker" ).datepicker({
+				"changeMonth": true,
+				"changeYear": true
+			});
 		 });
 	</script>
 <!-- //Calendar -->			
